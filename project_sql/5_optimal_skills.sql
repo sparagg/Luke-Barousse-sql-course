@@ -45,12 +45,14 @@ FROM
     skills_demand
 INNER JOIN average_salary on skills_demand.skill_id = average_salary.skill_id
 WHERE demand_count > 10
-ORDER BY average_salary DESC,
-        demand_count DESC
+ORDER BY 
+    demand_count DESC,
+    average_salary DESC
+        
 limit 25
 
 
--- same query rewritten in a more simplified  concise manner
+-- same query rewritten in a more simplified  concise manner and focusing on salary
 
  SELECT
         skills_dim.skill_id,
@@ -71,4 +73,5 @@ limit 25
     ORDER BY
         average_salary DESC,
         demand_count DESC
+        
     LIMIT 25
