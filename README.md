@@ -164,6 +164,13 @@ ORDER BY average_salary DESC,
         demand_count DESC
 limit 25
 ```
-
 # What I Learned
-# Conclusion
+This project was the start of learning sql and the beginning of my journey in starting a new career. Some of the skills I've developed through this project where:
+
+- Complex Query Crafting by applying advanced SQL practices, like merging tables and when using CTE's and subqueries.
+
+- Data Aggregation through the use of  GROUP BY and aggregatating functions like COUNT() and AVG() to clearly summarize query data.
+
+- Obtained a greater level of problem-solving ability by analyzing populated data to produce actionable and insightful conclusions.
+
+
